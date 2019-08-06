@@ -8,10 +8,14 @@
 2. 将token填写到application.properties文件的weather.caiyun.token后
 
 3. 执行即可
+
 4. 测试
-  测试路径：http://127.0.0.1:7788/weather/get
-  测试路径返回结果（返回值的说明信息在model文件下）：
-  {
+
+   测试路径：http://127.0.0.1:7788/weather/get
+
+   测试路径返回结果（返回值的说明信息在model文件下）：
+
+     {
    "status": "ok",
    "lang": "zh_CN",
    "unit": "metric",
@@ -61,4 +65,4 @@
            "speed": 13.95
        }
    }
-  }
+     }
